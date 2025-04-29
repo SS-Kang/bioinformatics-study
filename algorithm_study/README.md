@@ -4,4 +4,4 @@
 
 ## 📚 세부 항목
 
-- [Hidden Markov Model (HMM)](Hidden_Markov_Model/README.md)
+- [Hidden Markov Model (HMM)](hidden_markov_model/README.md)
