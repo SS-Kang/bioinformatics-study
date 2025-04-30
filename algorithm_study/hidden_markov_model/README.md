@@ -129,3 +129,7 @@ HMM은 바이오인포매틱스 분야에서 광범위하게 활용된다:
 - Burge and Karlin, "Prediction of complete gene structures in human genomic DNA", *Journal of Molecular Biology*, 1997.
 
 ---
+
+## 8. example code
+
+- [Viterbi-based HMM Phasing Example](hmm_example.py)
