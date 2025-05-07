@@ -16,15 +16,24 @@
    
 ### 3B Null Spaces and Ranges
 
-+ Linear map T의 null space는 T(v)=0이 되는 V의 모든 벡터로 이루어진 부분집함임 (For 𝑇 ∈ ℒ(𝑉, 𝑊))
++ Linear map T의 null space는 T(v)=0이 되는 V의 모든 벡터로 이루어진 부분집합임 (For 𝑇 ∈ ℒ(𝑉, 𝑊))
   + null 𝑇 = {𝑣 ∈ 𝑉 ∶ 𝑇𝑣 = 0}
   + 만약 T가 V to W의 zero map일 경우, 즉 Tv=0, 𝑣 ∈ 𝑉 null T = V
   + null space는 부분공간 (1) 0벡터 포함, 덧셈 스칼라곱에 닫혀 있음
-+ Linear map T가 injective(단사)하다는 의미는 T(u)=T(v) > u=v, 즉 다른 입력은 절대 같은 출력을 가질 수 없다는 의미임
++ Linear map T가 injective(단사)하다는 의미는 T(u)=T(v) → u=v, 즉 다른 입력은 절대 같은 출력을 가질 수 없다는 의미임
   + Let 𝑇 ∈ ℒ(𝑉, 𝑊). T가 injective하다면 null T = {0}임
 + Linear map 𝑇 ∈ ℒ(𝑉, 𝑊)의 range는 T(v) 꼴로 표현될수 있는 W의 모든 벡터들의 집합
-+ range 𝑇 = {𝑇𝑣 ∶ 𝑣 ∈ 𝑉}, range T는 항상 W의 부분집합이고, subspace가 됨
++ range T는 {Tv ∈ W | v ∈ V}로 정의되며, 항상 W의 부분공간(subspace)이다.
 + Surjective (전사) 출력 공간을 빠짐없이 다 채우는 함수
   + A function 𝑇∶ 𝑉 → 𝑊 is called surjective if its range equals 𝑊
 + Linear map T에 대해 입력 공간 V의 차원은 null space와 range의 차원(dim) 합과 같음
-+ 
+  + Rank-Nullity Theorem: dim V = dim null T + dim range T
++ 저차원 space로 이동하는 linear map은 injective하지 않음 dim null T = dim V - dim range T = dim V - dim W > 0
++ 고차원 space로 이동하는 linear map은 surjective하지 않음 W를 모두 채울 수 없음
+  + dim V < dim W 인 경우, T는 절대 surjective가 될 수 없음 (range T ⊊ W)
+  + dim range T = dim V - dim null T ≤ dim V < dim W
++ 미지수가 방정식 수보다 많은 homogeneous linear system (동차선형시스템)은 항상 0이 아닌 해(nonzero solution)를 가짐
+  +  A: 𝑚×𝑛행렬, m 행 row = 방정식 수 / n 열 column = 미지수 수
+  <!-- 이미지 크기 조절 (width 600px) -->
+  <img src="https://github.com/user-attachments/assets/eb4a2739-0fa0-45f4-9907-f166d78b7f02" width="600">
++  방정식 수가 변수 수보다 많은 선형 시스템은 어떤 상수항들을 선택하면 해가 없는 경우도 존재함 = 방정식들이 서로 모순된다는 의미
