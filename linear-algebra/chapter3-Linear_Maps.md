@@ -37,3 +37,7 @@
   <!-- 이미지 크기 조절 (width 600px) -->
   <img src="https://github.com/user-attachments/assets/eb4a2739-0fa0-45f4-9907-f166d78b7f02" width="600">
 +  방정식 수가 변수 수보다 많은 선형 시스템은 어떤 상수항들을 선택하면 해가 없는 경우도 존재함 = 방정식들이 서로 모순된다는 의미
+
+### 3C Matrices
+
++ 
